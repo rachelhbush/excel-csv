@@ -1,7 +1,11 @@
 # PROGRAM ID: Conversion between list of dictionaries and Excel CSV.py / Excel CSV to & from dictionary list
 # Author: Rachel Bush, Date initiated: 12/7/2017
 # INSTALLATION: Python v3.6
-# REMARKS: This file contains a class for reading from a CSV file written in the Excel dialect, as a list of ordered dictionaries, and
+# REMARKS: This package provides a Python API for quickly reading out a .csv file into a list of ordered dictionaries in one line. This can
+# be useful under circumstances where memory usage isn't that important, and the data is not being stored in a proper database. For example,
+# this package was created for a context in which the data is being sold via CSV.
+
+# This file contains a class for reading from a CSV file written in the Excel dialect, as a list of ordered dictionaries, and
 # writing back to the CSV file using ordered or unordered dictionaries. The class works the same in Python v3.5 as in v3.6, except .read()
 # returns records as a list of OrderedDicts instead of a list of unordered dictionaries. You must specify a list of field names because
 # dictionaries are allowed to omit key-value pairs as a way of representing null values, unless you use ordered dictionaries and make sure
