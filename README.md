@@ -8,8 +8,11 @@ Reading:
 list_of_records = spreadsheet.read()
 
 Writing:
+
 spreadsheet.write(list_of_records, output_path=None)
+
 ExcelCSV(path, list_of_records) is a shortcut for constructing and writing to the file if the dictionaries are ordered.
+
 ExcelCSV(path, list_of_records, fieldnames) is a shortcut for constructing and writing to the file if the dictionaries are unordered.
 
 Appending:
