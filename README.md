@@ -17,3 +17,6 @@ ExcelCSV(path, list_of_records, fieldnames) is a shortcut for constructing and w
 
 Appending:
 spreadsheet.append(list_of_records)
+
+Filtering:
+spreadsheet.filter(list_of_records, matches_fields, {'field': 'value'})
